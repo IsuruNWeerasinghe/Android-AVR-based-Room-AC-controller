@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00796b</color>
+    <color name="colorPrimaryDark">#00695c</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="app_title">#0091d5</color>
+    <color name="input_error">#ff0012</color>
+    <color name="titleclr">#ffffff</color>
+    <color name="txtbox">#000080</color>
+    <color name="txtbox1">#33ffffff</color>
+    <color name="txtbox2">#11ffffff</color>
+    <color name="background">#1d1033</color>
+
+    <color name="menubar">#0099ff</color>
+    <color name="clr1">#1c4e80</color>
+    <color name="clr2">#488a99</color>
+    <color name="clr3">#4cb5f5</color>
+    <color name="clr4">#48484c</color>
+    <color name="mainmenubar">#77000000</color>
+    <color name="navbar">#44000000</color>
+    <color name="drawer">#800000ff</color>
+</resources>

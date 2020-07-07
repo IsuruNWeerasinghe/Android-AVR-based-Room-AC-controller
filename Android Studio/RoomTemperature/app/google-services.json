@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "309386967761",
+    "firebase_url": "https://roomtemperature-33933.firebaseio.com",
+    "project_id": "roomtemperature-33933",
+    "storage_bucket": "roomtemperature-33933.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309386967761:android:ef763d1e863b9a60",
+        "android_client_info": {
+          "package_name": "com.example.roomtemperature"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309386967761-lc8screa169n92823k64k9vdnegdfr6n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.roomtemperature",
+            "certificate_hash": "9e337811d6ba54189fa99632a90293ee662cd172"
+          }
+        },
+        {
+          "client_id": "309386967761-k8406uan6k1jc0bpj09s2gc221ch6asc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYajbrR_KZBYMvcJ6UuinLyElSazctAgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309386967761-k8406uan6k1jc0bpj09s2gc221ch6asc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

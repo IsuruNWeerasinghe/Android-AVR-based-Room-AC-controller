@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".History">
+
+    <Toolbar
+        android:id="@+id/historytoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/menubar"
+        android:theme="@style/Widget.AppCompat.ActionBar"
+        app:popupTheme="@style/AppTheme.AppBarOverlay">
+
+    </Toolbar>
+
+            <WebView
+                android:id="@+id/tempWebView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="none"/>
+
+</LinearLayout>

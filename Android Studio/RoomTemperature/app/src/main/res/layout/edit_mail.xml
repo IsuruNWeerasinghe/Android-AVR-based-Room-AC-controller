@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:id="@+id/dialog_rl"
+    tools:context=".UserProfile">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change User Email"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/title"
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="New Email"
+        android:gravity="center_vertical"
+        android:background="@drawable/et_custom"
+        android:fontFamily="@font/roboto_regular"
+        android:id="@+id/editemailtxt"
+        android:layout_below="@+id/title"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/dialog_positive_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_change"
+        android:layout_marginStart="5dp"
+        android:layout_below="@id/editemailtxt"/>
+    <Button
+        android:id="@+id/dialog_negative_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_toLeftOf="@id/dialog_positive_btn"
+        android:background="@drawable/btn_change"
+        android:layout_marginEnd="5dp"
+        android:layout_alignBaseline="@id/dialog_positive_btn"
+        />
+</RelativeLayout>
